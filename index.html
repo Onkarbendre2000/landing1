@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 	 <meta name="viewport" content="width=device-width, initial-scale=1">  -->
+	<title>LIFEZECT</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  	var i = 0;
+  	function func(){
+  	if(i%3==2){
+  		document.getElementById('image').style.opacity=0;
+  		document.getElementById('three').style.opacity=0;
+  		document.getElementById('imag').style.opacity=1;
+  	}
+  	else if(i%3==1){
+  		document.getElementById('image').style.opacity=0;
+  		document.getElementById('imag').style.opacity=0;
+  		document.getElementById('three').style.opacity=1;
+  	}
+ 	else{
+ 		document.getElementById('imag').style.opacity=0;
+ 		document.getElementById('three').style.opacity=0;
+ 		document.getElementById('image').style.opacity=1;
+ 	}
+ 	i++;
+	}
+ 	function myfuc(){
+ 		setInterval(func,7000);
+ 	}
+ 	myfuc();
+  </script>
+	<style type="text/css">
+		html {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 0.8em;
+    height: 10%;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+  width: 10px;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #2A2727; 
+}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm" style="height: 10vh;background-color: black">
+<a class="navbar-brand ml-5  mt-4" href="#">
+    <p style="color:white;font-size: 2rem">LIFEZECT</p>
+  </a>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-dark" style="height: 7vh;background-color: #2A2727">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#idd">
+    <span class="navbar-toggler-icon navbar-dark" ></span>
+  </button>
+<div class="collapse navbar-collapse" id="idd">
+	<ul class="navbar-nav">
+		<li class="nav-item ml-5"><a href="#home" class="nav-item nav-link active" style="color: white;font-size: 0.9rem;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">Home</a></li>
+		<li class="nav-item "><a href="#package" class="nav-item nav-link " style="color: white;font-size: 0.9rem;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">Packages</a></li>
+		<li class="nav-item "><a href="#about" class="nav-item nav-link " style="color: white;font-size: 0.9rem;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">About Us</a></li>
+		<li class="nav-item "><a href="#contact" class="nav-item nav-link" style="color: white;font-size: 0.9rem;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">Contact Us</a></li>
+	</ul>
+</div>
+</nav>
+<div class="container-fluid"  style="background-color: #2A2727;height:110vh;display: flex;justify-content: center;resize: ">
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="height:95vh;margin-top: 7vh">
+	<div class="row">
+	<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" style="height:95vh;">
+	<img src ="rr.jpg" id ="image" style="height: 95vh;width: 120%;transition: opacity 2s;position: absolute;">
+	<img src ="yy.jpg" id ="imag" style="height: 95vh;width: 120%;transition: opacity 2s;position: absolute;">
+	<img src ="pp.jpg" id ="three" style="height: 95vh;width: 120%;transition: opacity 2s;position: absolute;">
+	</div>
+	<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" style="background-color:black;height:95vh;text-align: center;   display: flex;justify-content:center;align-content:center;flex-direction:column;">
+<p><h4 style="color:white;font-size: 3rem;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">LIFEZECT</h4></p>
+			<p style="color:white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">Your Financial Safety Net</p>
+	</div>
+</div>
+</div>
+</div>
+<div class="container-fluid" style="background-color:#003862;height:130vh;display: flex;flex-direction: column;"id = "package">
+	<center><p style="margin-top: 20vh"><h4 style="color:white;font-size: 2rem;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">OUR PACKAGES</h4></p></br>
+	<p style="color:white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;font-size: 0.8rem">Whether you need insurance for your business or personal life and assets, we have the experience to help you find the policy that's right </br>for you. We are committed to providing you with the highest level of protection at affordable prices. Check out our range of insurance  </br>packages, including Family Insurance Package, Life Insurance Package and Individual Insurance Package. </p>
+
+	<div class="col-lg-11 col-sm-11 col-md-11 col-xs-11" style="height:70vh;margin-top: 15vh">
+	<div class="row">
+	<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" style="height:70vh">
+			<img src="tt.jpg"style="height: 70vh;width: 100%;filter:contrast(60%);"></img>
+
+			<div style="position: absolute;top: 50%;left:50px;color: white;font-size: 1.4rem;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">FAMILY INSURANCE PACKAGE</div>
+			<div style="position: absolute;top: 60%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">LifeZect has been helping people feel safer since 2023, </div>
+			<div style="position: absolute;top: 65%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">providing our clients with the best Family Insurance </div>
+			<div style="position: absolute;top: 70%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">Package in the industry. Are you spending too much </div>
+			<div style="position: absolute;top: 75%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">precious time thinking about what might happen to you in </div>
+			<div style="position: absolute;top: 80%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">the future? Don't worry! We're here to put together a </div>
+			<div style="position: absolute;top: 85%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">policy that best meets your specific needs.</div>
+	</div>
+	<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" style="height:70vh">
+		<img src="uu.jpg"style="height: 70vh;width: 100%;filter: contrast(70%);"></img>
+
+			<div style="position: absolute;top: 50%;left:50px;color: white;font-size: 1.4rem;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">LIFE INSURANCE PACKAGE</div>
+			<div style="position: absolute;top: 60%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">At LifeZect, we know that different needs mean different  </div>
+			<div style="position: absolute;top: 65%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">policies. That is why our agents work around the clock to </div>
+			<div style="position: absolute;top: 70%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">make sure they meet your specific needs correctly. We  </div>
+			<div style="position: absolute;top: 75%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">take every safety measure precaution possible. That is </div>
+			<div style="position: absolute;top: 80%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">why our Life Insurance Package is the best in the industry. </div>
+			<div style="position: absolute;top: 85%;left:50px;color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">Learn more by meeting with our agents.</div>
+	</div> 
+</div>
+</div>
+</center>
+</div>
+<div class="container-fluid" style="background-color:black;height:100vh;"id = "about">
+	<center>
+			<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" style="height:40vh;background-color: transparent;">
+				<img src="cc.jpg" style="border-radius: 50%;height: 30vh;margin-top:5vh;width: 30vh"></img>
+			</div>
+		<p><h4 style="color:white;font-size: 2rem;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">ABOUT US</h4></p></br>
+	<p style="color:white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;font-size: 0.8rem">LifeZect has been successfully meeting the needs of our clients in CA since 2023. Our dedicated agents</br>specialize in Office Furniture and Ink and Toner. But, we simply don't believe in the "one-size-fits-all" approach. </br>We work with you to create individualised solutions. Our team is here to help our clients ask the right questions, </br>identify their specific insurance demands and voice their concerns so we can best meet them.</p>
+</br></br>
+	<p style="color:white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;font-size: 0.8rem">Contact us to start doing business with the very best in the industry. You'll be surprised by what we can do for </br>you, your business and your family.</p>
+</center>
+	</div>
+	<div class="container-fluid" style="background-color:#2A2727;height:100vh;display: flex;justify-content: center;"id = "contact">
+			<div class="col-lg-11 col-sm-11 col-md-11 col-xs-11" style="height:60vh;margin-top: 20vh">
+	<div class="row">
+	<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" style="height:60vh;background-color: black">
+		<center><p><h4 style="color:white;font-size: 2.5rem;margin-top: 10vh;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">GET IN TOUCH</h4></p></br>
+			<p style="color:white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">Pune,Maharashtra</p>
+			<p style="color:white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">info@lifezect.com</p>
+			<p style="color:white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">1800 102 8169</p>
+		</center>
+	</div>
+	<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" style="height:60vh;background-image: url('rrr.jpg');background-size: cover;">
+	</div> 
+	</div>
+</div>
+</div>
+<nav class="navbar navbar-expand-sm fixed" style="height: 15vh;background-color: black;display: flex;justify-content: center;flex-direction: column;">
+	<p style="color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;font-size: 0.8rem">	1800 102 8169</p>
+	<p style="color: white;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;font-size: 0.8rem">	Copyright © 2019 LifeZect Pvt.Ltd. All rights reserved.</p>
+</nav>
+</body>
+</html>
